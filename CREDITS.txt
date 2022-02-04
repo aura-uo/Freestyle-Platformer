@@ -1,0 +1,28 @@
+Credits
+
+Sprites from Simple 2D Platform Assets Pack by Goldmetal
+https://assetstore.unity.com/packages/2d/characters/simple-2d-platformer-assets-pack-188518
+
+Sounds
+Coin/Score Sound
+Coins 1 by ProjectsU012
+https://freesound.org/people/ProjectsU012/sounds/341695/
+
+Jump Sound
+Text-Message or Videogame-Jump by CmdRobot
+https://freesound.org/people/CmdRobot/sounds/264828/
+
+Dash Sound
+Jump Spring 8 Bit by Mrthenoronha
+https://freesound.org/people/Mrthenoronha/sounds/521268/
+
+Win/PlayAgain Sound
+Item Pickup by TreasureSounds
+https://freesound.org/people/TreasureSounds/sounds/332629/
+
+Game Over Sound
+Game Start by plasterbrain
+https://freesound.org/people/plasterbrain/sounds/243020/
+
+Level Design from Kevin Whitmeyer's Game Art Blog
+https://kevwhitm.blogspot.com/2014/08/platformer-tutorial-level-design.html

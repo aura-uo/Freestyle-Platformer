@@ -1,0 +1,39 @@
+Platformer - Instructions
+
+~Controls~
+Left and Right Arrow Keys ->  Moving left and right
+Up Arrow Key -> Jumping
+Spacebar -> Dash Attack
+ESC -> Replay (only when you've either won or lost)
+
+~Scoring~
+Collect coins -> 100 points each
+Dash Attack at monsters -> 200 points each
+A bleep will sound each time a score has been made
+
+~Win State~
+Find the red flag in the level
+
+~Lose State~
+Getting hit by monsters when you aren't attacking
+Hitting into spikes
+Falling off the map or going too far into space
+
+~Objects~
+Player
+- White humanoid that the camera follows
+- Dies from monsters, spikes, and falling off tilemap
+
+Monster
+- Green and small
+- Move back and forth on their platforms
+- Can kill player
+- Can be killed by the player through a dash attack
+
+Spike
+- Always static and stuck on walls
+- Will always kill player on contact, dashing or not
+
+Flag
+- Red
+- Touching it makes player win the game

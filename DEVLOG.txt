@@ -1,0 +1,98 @@
+***Log any ideas/decision making, feature implementations, bug fixes, and significant changes***
+-----------------------------------------------------------------------
+Friday (11/12)
+-----------------------------------------------------------------------
+
+~~Afternoon-ish~~
+
+Aesthetic
+- A rustic somber platformer for challenge and exploration
+
+Solidified win and lose states and game objects for the game
+- Reach the bottom most part of the tilemap to win
+- Player is a haunted fighting dummy
+- Avoiding flying projectiles, attacking scarecrows, and falling spikeballs
+
+Found assets to use
+Made tile map
+Added desired prefabs and props to the tile map
+
+-----------------------------------------------------------------------
+
+~~Night~~
+
+Changed premise
+- I feel unsure if I can do the "exploratory" aesthetic
+- Might require a better tilemap and long enough playtime for things to getting genuinely exploratory
+- All the assets are background sprites so if I want to make animations, I wouldn't be able to use pre-existing materials
+- All just won't fit timeframe
+
+New Aesthetic
+- A light-hearted Adventure Platformer for challenge and escapism
+
+Goals
+- Add a few tricks to the tile map to mislead them into more dangerous paths
+- Choose assets that are cutesy and appealing
+- The rules don't require much brainpower
+
+Core Mechanics stay the same
+- Move to end of platform, jump to new platform, move away from obstacles and enemies, dash at enemies to attack
+- The mechanism are intuitive and recognizable for the escapism
+- The tile map design is enough to establish a sense of challenge with the limited, small loop
+
+Found new cutesy assets (light hearted!)
+Found inspiration for a small quick tilemap
+Started on tile map
+Created player, enemy, coin, and spike props
+
+---------------------------------------------------------------------
+Saturday(11/13)
+---------------------------------------------------------------------
+
+~~Afternoon~~
+
+- Finished tile map, and added tilemap collider
+- Added all desired enemies, coins, spikes, and flag onto the map
+- Added player movement and jumping
+- Added camera following the player
+- Added the coin disappearing when touched by player
+- Added text to display player score
+- Coins add 100 points to score
+- Added "you win" and "game over" panels to display when player wins or loses
+- Added flags resulting a win panel
+- Spikes touching a player results in a lose panel
+- Added ESC as replay button when player wins or loses
+- Added enemies moving back and forth on their platforms without falling
+
+---------------------------------------------------------------------
+Sunday (11/14)
+---------------------------------------------------------------------
+- Found and added sound effects
+- Prevent stuck state of falling off the tilemap eternally (you die now)
+- Added dash attack
+- Added destroying enemies and including that in the point score
+- enemies touching a non-dashing player results in losing the game
+- player and enemy sprites flip to face direction they are walking towards
+
+---------------------------------------------------------------------
+PostMortem
+---------------------------------------------------------------------
+At the start, I was unsure about the idea I wanted to pursue. I wanted something
+feasible given that I want had the weekend to work on this. I at first wanted to do
+an exploratory rustic platformer but I realized that it would amp up the difficulty
+in terms of making a good tile map and making the assets I found work in my favor.
+
+I opted then to make a light-hearted platform that is more for killing time while
+offering a moderate challenge. 
+
+This meant that I was able to set more accomplishable goals like finding cutesy assets, 
+setting good traps on my map, while having a familiar and natural set of rules anyone 
+can pick up. I added "trap" coins where players have no choice but to die, and made them make 
+a risky jump or two. 
+
+I would argue that very few things went wrong aside from maybe amping up the difficulty
+further since I would argue that this is currently tutorial-level hard. I also wished I had
+more time to add some animations since static sprites stink.
+
+In this project, I learned how to make tile maps, make the camera follow the player around,
+use sprite maps, flip sprites through scripts, and setting up realistic goals based on tight schedules.     
